@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.0" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="8" nextobjectid="11">
+ <tileset firstgid="1" name="RPGpack_sheet" tilewidth="64" tileheight="64" tilecount="260" columns="20">
+  <image source="Source Files - Develop an Action RPG with Phaser 3/01_Creating a Level in Tiled/project_start/RPGpack_sheet.png" width="1280" height="832"/>
+ </tileset>
+ <layer id="2" name="Background" width="10" height="10" locked="1">
+  <data encoding="csv">
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22,
+22,22,22,22,22,22,22,22,22,22
+</data>
+ </layer>
+ <layer id="3" name="Blocked" width="10" height="10" locked="1">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,183,0,0,0,0,0,183,0,0,
+0,0,0,205,0,0,205,0,0,0,
+0,0,0,225,0,0,225,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,205,0,0,205,0,0,0,
+0,0,0,225,0,0,225,0,0,0,
+0,183,0,0,0,0,0,183,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="4" name="Player" locked="1">
+  <object id="2" name="StartingPosition" type="StartingPosition" x="279" y="545">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="5" name="Enemies" locked="1">
+  <object id="8" name="Enemy" type="Enemy" x="287" y="107">
+   <point/>
+  </object>
+  <object id="9" name="Enemy" type="Enemy" x="480" y="613">
+   <point/>
+  </object>
+  <object id="10" name="Enemy" type="Enemy" x="230" y="306">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="6" name="Coins" locked="1">
+  <object id="4" name="Coin" type="Coin" x="82" y="182">
+   <point/>
+  </object>
+  <object id="5" name="Coin" type="Coin" x="409" y="111">
+   <point/>
+  </object>
+  <object id="6" name="Coin" type="Coin" x="533" y="305">
+   <point/>
+  </object>
+  <object id="7" name="Coin" type="Coin" x="93" y="558">
+   <point/>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Portal" locked="1">
+  <object id="3" name="Portal" type="Portal" x="217" y="39">
+   <point/>
+  </object>
+ </objectgroup>
+</map>
